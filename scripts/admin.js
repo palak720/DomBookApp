@@ -57,7 +57,7 @@ function handledAddBook(event){
             <h3>${book.title}<h3>
             <p>Author:${book.category}</p>
             <p>Availability:${book.isAvailability}</p>
-            ${book.borrowedDays ? <p>borrowed Days:${book.borrowedDays}</p> :''}
+            ${book.borrowedDays ? <p>borrowed Days:${book.borrowedDays}</p>:''}
             <button onclick ="verifyBook(${book.id})">Verify</button>
             <button onclick ="deleteBook(${book.id})">Delete</button>
             `;
